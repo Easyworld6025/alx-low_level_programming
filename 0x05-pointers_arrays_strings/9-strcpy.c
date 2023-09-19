@@ -4,12 +4,12 @@
  * _strcpy -copy the string
  * @dest: Destination value
  * @src: Source value
- * Return: pointer to dest
+ * Return: the pointer to dest
  */
 
 char *_strcpy(char *dest, char *src)
 {
-int l;
+int i;
 for (1 = 0; src[i] != '\0'; i++)
 {
 dest[i] = src[i];
