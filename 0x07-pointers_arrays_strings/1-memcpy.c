@@ -4,17 +4,14 @@
  * @dest: memory where is stored
  * @src: memory where is copied
  * @n: number of bytes
- * Return: copied memory with n bytes changed
+ * Return: Always 0
  */
-char *_ memcpy(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int r = 0;
-	int i = n;
+	unsigned int i;
 
-	for (; r < i; r++)
-	{
-		dest[r] = src[r];
-		n--;
-	}
+	for (i = 0; i < n; i++)
+		dest[i] = src[i];
+
 	return (dest);
 }
