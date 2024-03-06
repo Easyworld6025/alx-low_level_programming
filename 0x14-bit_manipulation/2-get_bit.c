@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * get -bit - get the value of a bit at a given index
+ * get_bit - get the value of a bit at a given index
  * @index: the index of the bit to be gotten
  * @n: the number to be check the value of
  * Return: integer 1 or 0
